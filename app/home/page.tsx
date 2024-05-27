@@ -1,12 +1,13 @@
 import MovieVideo from "../components/MovieVideo";
+import Navbar from "../components/Navbar";
+import RecentlyAdded from "../components/RecentlyAdded";
 
 export default function HomePage() {
-    return (
-      <div className="container mx-auto py-20">
-        <MovieVideo />
-        <h1 className="text-4xl font-bold mb-4">Welcome to CineNex</h1>
-        <p>Enjoy your stay!</p>
-      </div>
-    );
-  }
-  
+  return (
+    <div className="p-5 lg:p-0">
+      <MovieVideo />
+      <h1 className="text-3xl font-bold ">Recently Added</h1>
+      <RecentlyAdded />
+    </div>
+  );
+}
