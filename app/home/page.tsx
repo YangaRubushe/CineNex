@@ -1,3 +1,4 @@
+import MovieList from "../components/MovieList";
 import MovieVideo from "../components/MovieVideo";
 import Navbar from "../components/Navbar";
 import RecentlyAdded from "../components/RecentlyAdded";

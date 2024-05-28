@@ -152,7 +152,7 @@ export default function SeedDatabase() {
           id: 10,
           title: "Family Guy",
           age: 16,
-          duration: 0,
+          duration: 1.2,
           imageString:
             "https://image.tmdb.org/t/p/original/y4PDksvxM05sNxacoU8xIYITCDA.jpg",
           overview:

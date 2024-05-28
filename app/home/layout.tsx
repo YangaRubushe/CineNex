@@ -12,13 +12,14 @@ export default async function HomeLayout({
   const session = await getServerSession(authOptions);
 
   if (!session) {
-    return redirect("/login");
+    redirect("/login");
+    return null; // Ensure that nothing is rendered before the redirect
   }
 
   return (
     <>
       <Navbar />
-      <main className="w-full max-w-7xl mx-auto sm:px-6 lg:px-8">
+      <main className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         {children}
       </main>
     </>

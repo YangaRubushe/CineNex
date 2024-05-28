@@ -7,8 +7,14 @@ const nextConfig = {
           hostname: "image.tmdb.org",
           port: "",
         },
+        {
+          protocol: "https",
+          hostname: "www.themoviedb.org",
+          port: "",
+        },
       ],
     },
   };
   
   export default nextConfig;
+  
