@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CineNex
 
-## Getting Started
+## Overview
 
-First, run the development server:
+**CineNex** is a modern, user-friendly movie streaming platform inspired by Netflix. The platform features movie trailers and a comprehensive database of movies. Built using cutting-edge technologies such as Next.js 14, Prisma, Supabase, and Shadcn UI, CineNex aims to deliver a seamless and visually appealing user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Trailer Streaming**: Watch high-quality trailers for the latest movies.
+- **User Authentication**: Secure login options using Google, GitHub, and email.
+- **Responsive Design**: Optimized for viewing on all devices.
+- **Dynamic UI**: Beautiful and responsive UI components from Shadcn UI and React.
+- **Movie Database**: Comprehensive movie database managed via Prisma and Supabase.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js 14**: A powerful React framework for server-side rendering and static site generation.
+- **Auth-Next**: A flexible authentication library for Next.js, providing secure authentication options.
+- **Prisma**: An ORM for Node.js and TypeScript, used for database management and migrations.
+- **Supabase**: An open-source Firebase alternative, used as the backend database.
+- **Shadcn UI**: A modern, beautiful UI library used to build the frontend components.
+- **Vercel**: Deployment platform for frontend applications, used to host CineNex.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To set up CineNex locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/YangaRubushe/CineNex
+   cd CineNex
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Install Dependencies**:
+   Ensure you have `npm` and `Next.js` installed, then run:
+   ```sh
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add your personal information, including API keys. Here's an example of what you might need:
+   ```env
+   DATABASE_URL=<your-database-url>
+   NEXTAUTH_URL=<your-next-auth-url>
+   GOOGLE_CLIENT_ID=<your-google-client-id>
+   GOOGLE_CLIENT_SECRET=<your-google-client-secret>
+   GITHUB_CLIENT_ID=<your-github-client-id>
+   GITHUB_CLIENT_SECRET=<your-github-client-secret>
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Run the Development Server**:
+   Start the development server with:
+   ```sh
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   Your application should now be running on `http://localhost:3000`.
+
+## Deployment
+
+CineNex is deployed using Vercel. To deploy your own version:
+
+1. **Connect to Vercel**: Log in to Vercel and connect your GitHub repository.
+2. **Configure Environment Variables**: Set the same environment variables in Vercel as you have in your local `.env` file.
+3. **Deploy**: Trigger a deployment from the Vercel dashboard.
+
+## Usage
+
+- **Browse Movies**: Explore the latest movie trailers and detailed information about each movie.
+- **Authentication**: Sign up or log in using Google, GitHub, or email for a personalized experience.
+- **Responsive Design**: Enjoy a seamless experience across all devices.
+
+## Contributing
+
+Developers are welcome to contribute to CineNex. To get started:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries or feedback, please contact:
+
+- **Name**: Yanga Rubushe
+- **GitHub**: [YangaRubushe](https://github.com/YangaRubushe)
+- **X**: [YangaRubushe](https://x.com/YangaRubushe)
+
+---
+
+Thank you for using CineNex! Enjoy streaming the latest movie trailers.
