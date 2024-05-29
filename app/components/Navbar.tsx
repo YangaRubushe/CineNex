@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/cinenexlogo.png";
 import { usePathname } from "next/navigation";
-import { Bell, Search } from "lucide-react";
+import { Bell, Search, Menu } from "lucide-react";
 import UserNav from "./UserNav";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
@@ -58,13 +58,17 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center gap-x-8">
-        <Search className="w-5 h-5 text-gray-300 cursor-pointer" />
-        <Bell className="h-5 w-5 text-gray-300 cursor-pointer" />
-        <UserNav />
+        <div className="hidden lg:flex items-center gap-x-8">
+          <Search className="w-5 h-5 text-gray-300 cursor-pointer" />
+          <Bell className="h-5 w-5 text-gray-300 cursor-pointer" />
+          <UserNav />
+        </div>
         <div className="lg:hidden">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline">Menu</Button>
+              <Button variant="outline">
+                <Menu className="w-5 h-5 text-gray-300" />
+              </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
               {links.map((link, idx) => (
@@ -74,6 +78,14 @@ export default function Navbar() {
                   </Link>
                 </DropdownMenuItem>
               ))}
+              <DropdownMenuItem>
+                <Search className="w-5 h-5 text-gray-300 cursor-pointer" />
+                <span className="ml-2">Search</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Bell className="h-5 w-5 text-gray-300 cursor-pointer" />
+                <span className="ml-2">Notifications</span>
+              </DropdownMenuItem>
               <DropdownMenuItem>
                 <UserNav />
               </DropdownMenuItem>

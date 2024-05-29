@@ -63,7 +63,7 @@ export function MovieCard({
                 <div className="flex gap-x-2 items-center">
                     <p className="font-normal text-sm">{year}</p>
                     <p className="font-normal border py-0.5 px-1 border-gray-200 rounded text-sm">PG:{age}+</p>
-                    <p className="font-normal text-sm">{time}m</p>
+                    <p className="font-normal text-sm">{time}min</p>
                 </div>
                 <p className="line-clamp-1 text-sm text-gray-200 font-light">
                     {overview}

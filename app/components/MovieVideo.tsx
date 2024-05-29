@@ -31,7 +31,7 @@ export default async function MovieVideo() {
         muted
         loop
         src={data?.videoSource}
-        className="w-full absolute top-0 left-0 h-[70vh] object-cover -z-10 brightness-[60%]"
+        className="w-full absolute top-0 left-0 h-[68vh] object-cover -z-10 brightness-[60%]"
       ></video>
       <div className="absolute w-[90%] lg:w-[40%] mx-auto">
         <h1 className="text-white text-4xl md:text-5xl lg:text-6x font-bold">{data?.

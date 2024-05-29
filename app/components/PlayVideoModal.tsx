@@ -38,7 +38,7 @@ export default function PlayVideoModal({
           <div className="flex gap-x-2 items-center">
             <p>{release}</p>
             <p className="border py-o.5 px-1 border-gray-200 rounded">PG:{age}+</p>
-            <p>{duration}m</p>
+            <p>{duration}min</p>
           </div>
         </DialogHeader>
         <iframe src={youtubeUrl} height={250} className="w-full" allowFullScreen></iframe>

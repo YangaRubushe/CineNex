@@ -13,7 +13,7 @@ export default async function HomeLayout({
 
   if (!session) {
     redirect("/login");
-    return null; // Ensure that nothing is rendered before the redirect
+    return null; // Ensures that nothing is rendered before the redirect
   }
 
   return (
