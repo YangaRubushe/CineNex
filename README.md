@@ -1,4 +1,5 @@
 # CineNex
+![cinenexlogo](https://github.com/YangaRubushe/CineNex/assets/118383164/bc513bc1-348d-4f8f-9442-7de32a7a76a9)
 
 ## Overview
 
@@ -15,11 +16,17 @@
 ## Technologies Used
 
 - **Next.js 14**: A powerful React framework for server-side rendering and static site generation.
+  - [Next.js](https://nextjs.org/)
 - **Auth-Next**: A flexible authentication library for Next.js, providing secure authentication options.
+  - [NextAuth.js](https://next-auth.js.org/)
 - **Prisma**: An ORM for Node.js and TypeScript, used for database management and migrations.
+  - [Prisma](https://www.prisma.io/)
 - **Supabase**: An open-source Firebase alternative, used as the backend database.
+  - [Supabase](https://supabase.com/)
 - **Shadcn UI**: A modern, beautiful UI library used to build the frontend components.
+  - [Shadcn UI](https://shadcn.dev/)
 - **Vercel**: Deployment platform for frontend applications, used to host CineNex.
+  - [Vercel](https://vercel.com/)
 
 ## Installation
 
