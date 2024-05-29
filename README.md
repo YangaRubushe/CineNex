@@ -34,7 +34,7 @@ To set up CineNex locally, follow these steps:
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/YangaRubushe/CineNex
+   git clone https://github.com/YangaRubushe/CineNex.git
    cd CineNex
    ```
 
