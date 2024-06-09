@@ -5,6 +5,8 @@
 
 **CineNex** is a modern, user-friendly movie streaming platform inspired by Netflix. The platform features movie trailers and a comprehensive database of movies. Built using cutting-edge technologies such as Next.js 14, Prisma, Supabase, and Shadcn UI, CineNex aims to deliver a seamless and visually appealing user experience.
 
+## CineNex Deployed: [CineNex](https://cinenex-landingpage.vercel.app/)
+
 ## Features
 
 - **Trailer Streaming**: Watch high-quality trailers for the latest movies.
@@ -89,7 +91,7 @@ Developers are welcome to contribute to CineNex. To get started:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
